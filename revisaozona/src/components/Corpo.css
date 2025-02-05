@@ -1,0 +1,15 @@
+.corpo-container{
+
+    height: 100vh;
+    /* height: calc(100vh - 60px); */
+    padding: 25px;
+
+}
+
+.card-container, .lista-cards{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
