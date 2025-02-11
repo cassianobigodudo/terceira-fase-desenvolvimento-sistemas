@@ -1,0 +1,14 @@
+.header-container{
+
+    height: 15%;
+    width: 100%;
+    background-color: #f05924;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #57071d;
+    font-size: 10px ;
+
+}
