@@ -16,13 +16,17 @@
 
     /* background-color: blue; */
     height: 15%;
+    /* width: 30%; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     color: #e34625;
+    text-align: center;
+    background-color: white;
+    
 }
 
 .dados-div{
@@ -65,3 +69,26 @@
     flex-direction: column;
     font-size: 80px;
 }
+
+.btn{
+
+    background-color: white;
+    border: black;
+    border: solid;
+    border-width: 3px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+
+
+}
+
+.btn:disabled{
+
+    
+
+}
+
