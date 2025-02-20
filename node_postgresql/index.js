@@ -16,6 +16,14 @@ app.get('/', (req,res) => {
 
 })
 
+app.get('/usuarios', (req,res) => {
+
+    res.json({
+        message:"Funcionando!"
+    })
+
+})
+
 
 app.listen(port);
 console.log('Servidor rodando na porta 3000! :D')
