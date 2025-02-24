@@ -1,4 +1,4 @@
-async function connect(){
+async function connect(){//? função assincrona, que permite que várias operações sejam executadas simultaneamente sem bloquear a execução de outras tarefas
 
     if(global.connection)
 
@@ -15,6 +15,15 @@ async function connect(){
     console.log(res.rows[0])
     cliente.release()
 
-    global.connection = pool
+    global.connect = pool
     return pool.connect()
+}
+
+connect();
+
+async function selecionarUsuario() {
+
+    const cliente = await connect();
+    const res = await cliente.query('SELECT * FROM usuario')
+
 }

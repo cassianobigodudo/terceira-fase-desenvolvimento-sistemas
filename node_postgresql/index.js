@@ -16,11 +16,10 @@ app.get('/', (req,res) => {
 
 })
 
-app.get('/usuarios', (req,res) => {
+app.get('/usuario', (req,res) => {
 
-    res.json({
-        message:"Funcionando!"
-    })
+   const usuario = await db.selecionarUsuario()
+   res.json(usuario)
 
 })
 
