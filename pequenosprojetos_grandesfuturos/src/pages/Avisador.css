@@ -1,0 +1,63 @@
+.avisador-container{
+    height: 90%;
+    /* background-color: crimson; */
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avisador-box{
+
+    height: 85%;
+    width: 85%;
+    /* background-color: blue; */
+    display: flex;
+    border-radius: 2px;
+    
+
+}
+
+.fenix{
+
+    width: 994px;
+
+}
+
+.fenix-container{
+    height: 100%;
+    width: 61%;
+    /* background-color: #edaa21; */
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px ;
+    background-image: url(public/images/defesa.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.protesto{
+
+    width: 600px;
+}
+.protesto-container{
+    height: 100%;
+    width: 39%;
+    /* background-color: #edaa21; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top-right-radius:30px ;
+    border-bottom-right-radius: 30px ;
+
+}
+.aviso{
+
+    font-family: "GonzagaBold";
+    text-align: center;
+    font-size: 37px;
+    color: #ff0000;
+    /* font-weight: 900; */
+    text-shadow: 2.5px 2.5px 0px #7b0001;
+}

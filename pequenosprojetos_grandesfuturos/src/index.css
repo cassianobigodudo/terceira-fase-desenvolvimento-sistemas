@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+#root, body, html{
+
+  height: 100vh;
+
+}
+
+@font-face {
+  font-family: 'GonzagaBold';
+  src: url(public/fonts/Gonzaga-Trial-Bold-BF66cfe900eb983.otf);
+}
+
+@font-face {
+  font-family: 'Gonzaga';
+  src: url(public/fonts/Gonzaga-Trial-Regular-BF66cfe9015c497.otf);
+}

@@ -1,0 +1,39 @@
+.homebutton-container{
+
+    height: 90%;
+
+}
+.homebutton-oficial{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bfeeaf;
+    height: 10%;
+
+}
+
+.btn{
+
+    height: 60px;
+    /* width: 88px; */
+    font-family: "Gonzaga";
+    font-size: 14.5px;
+    border: 3.1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    transition: 0.3s;
+    color: #0b3128;
+    padding: 4px;
+    margin: 2px;
+}
+
+.btn:hover{
+
+    cursor: pointer;
+    background-color: #29c39c;
+    transition: 0.3s;
+}
+
+
+
