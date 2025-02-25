@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './HomeButton.css'
 import Button0 from './Button0'
 import Avisador from '../pages/Avisador'
+//teste
 
 function HomeButton() {
 
