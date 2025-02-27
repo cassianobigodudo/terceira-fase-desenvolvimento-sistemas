@@ -1,0 +1,7 @@
+.container-home{
+
+    background-color: var(--space-cadet);
+    min-height: 100vh;
+    color: var(--white);
+
+}

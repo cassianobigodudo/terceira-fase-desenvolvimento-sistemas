@@ -1,0 +1,16 @@
+.produto-container{
+
+    background-color: var(--verdigris);
+    min-height: 100vh;
+
+}
+
+    .card-container{
+
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+
+    }

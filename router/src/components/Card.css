@@ -1,0 +1,39 @@
+.container-card{
+    border: 1px solid var(--oxford-blue);
+    background-color: var(--oxford-blue);border-radius: 10px;
+    color: white;
+    width: 160px;
+    height: 160px;
+    /* display: flex; */
+    /* justify-content: start; */
+    /* align-items: center; */
+    transition: 0.5s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    
+}
+
+.container-card:hover{
+    transition: 1s;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    /* font-size: 15px; */
+    
+}
+
+.jogo-nome{
+
+    text-align: center;
+}
+
+.jogo-valor{
+
+    text-align: center;
+    
+}
+
+.jogo-unidade{
+    
+    text-align: center;
+
+}
