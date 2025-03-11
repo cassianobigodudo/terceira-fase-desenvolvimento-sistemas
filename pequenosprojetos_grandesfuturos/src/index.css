@@ -13,10 +13,10 @@
 
 @font-face {
   font-family: 'GonzagaBold';
-  src: url(public/fonts/Gonzaga-Trial-Bold-BF66cfe900eb983.otf);
+  src: url(/fonts/Gonzaga-Trial-Bold-BF66cfe900eb983.otf);
 }
 
 @font-face {
   font-family: 'Gonzaga';
-  src: url(public/fonts/Gonzaga-Trial-Regular-BF66cfe9015c497.otf);
+  src: url(/fonts/Gonzaga-Trial-Regular-BF66cfe9015c497.otf);
 }
