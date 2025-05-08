@@ -1,0 +1,20 @@
+{
+  "name": "webapi-crud-backend-with-nodejs-postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Davide",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.10",
+    "pg": "^8.15.6"
+  }
+}
